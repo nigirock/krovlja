@@ -1,0 +1,20 @@
+@import "animate.css";
+@import "header.css";
+@import "about.css";
+@import "seven.css";
+@import "info.css";
+@import "ogragdenie.css";
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+ul li {
+    list-style: none;
+}
+ul li span{
+    padding-right: 20px;
+}
+.container-fluid{
+    padding: 0;
+}

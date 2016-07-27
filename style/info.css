@@ -1,0 +1,62 @@
+.info{
+    border-top: 3px solid #c1c1c1;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ccdbe0+0,f3f2f9+100 */
+    background: #ccdbe0; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ccdbe0 0%, #f3f2f9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ccdbe0 0%,#f3f2f9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ccdbe0 0%,#f3f2f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccdbe0', endColorstr='#f3f2f9',GradientType=0 ); /* IE6-9 */
+}
+.info h2{
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #fff;
+    border-bottom: 2px solid #00b3ee;
+    text-shadow: 1px 1px 5px #000;
+}
+.img_info{
+    text-align: center;
+    padding: 60px 0;
+    position: relative;
+}
+.little_block{
+    position: absolute;
+    border: 1px solid #28467f;
+    padding: 5px 10px;
+}
+.little_block h4{
+    font-weight: bold;
+    border-bottom: 1px solid #00b3ee;
+}
+.animate_hidden{
+    visibility: hidden;
+}
+.info_animate{
+    visibility: visible;
+}
+.little_block1{
+    top: 0;
+    left: 94px;
+}
+.little_block2{
+    top: 105px;
+}
+.little_block3{
+    top: 210px;
+}
+.little_block4{
+    top: 340px;
+}
+.little_block5{
+    right: 25px;
+    top: 0;
+}
+.little_block6{
+    right: 183px;
+    top: 107px;
+}
+.little_block7{
+    right: -17px;
+    top: 218px;
+}

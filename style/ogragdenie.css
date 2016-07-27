@@ -1,0 +1,39 @@
+.ogragdenie{
+    border-top: 3px solid #c1c1c1;
+}
+.ogragdenie h2{
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #000;
+    border-bottom: 2px solid #00b3ee;
+    padding-bottom: 15px;
+    color: #a59e9e;
+}
+.ogragdenie h3,h4{
+    text-align: center;
+    color: #6b6a6a;
+}
+.btn_block button{
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+.elipse_block img{
+    margin-bottom: 10px;
+}
+.elipse_block img:hover{
+    -webkit-box-shadow: 0 0 5px 1px #888;
+    box-shadow: 0 0 5px 1px #888;
+    cursor: pointer;
+}
+.block_img{
+    text-align: center;
+}
+.active_btn{
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+.slider{
+    margin-top: 40px;
+}

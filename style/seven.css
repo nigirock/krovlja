@@ -1,0 +1,39 @@
+.seven{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+0,c3d5db+100 */
+    background: #fcfcfc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fcfcfc 0%, #c3d5db 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fcfcfc 0%,#c3d5db 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fcfcfc 0%,#c3d5db 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#c3d5db',GradientType=0 ); /* IE6-9 */
+    padding-bottom: 40px;
+}
+.block_form{
+    border: 1px solid #00b3ee;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    position: relative;
+}
+.block_form img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.6;
+}
+.form_animate{
+    visibility: hidden;
+}
+.animate_visible{
+    visibility: visible;
+}
+.seven h3{
+    font-size: 1.7em;
+    color: #337ab7;
+ }
+.seven h4{
+    color: #337ab7;
+}
+.seven p{
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+}
