@@ -1,5 +1,7 @@
 .ogragdenie{
     border-top: 3px solid #c1c1c1;
+    border-bottom: 3px solid #c1c1c1;
+    padding-bottom: 40px;
 }
 .ogragdenie h2{
     text-align: center;
@@ -12,6 +14,17 @@
 .ogragdenie h3,h4{
     text-align: center;
     color: #6b6a6a;
+}
+.ogragdenie .block_form{
+    padding-top: 15px;
+    background: #fcfcfc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fcfcfc 0%, #c3d5db 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fcfcfc 0%,#c3d5db 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fcfcfc 0%,#c3d5db 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#c3d5db',GradientType=0 ); /* IE6-9 */
+}
+.ogragdenie .block_form > p{
+    margin-top: 15px;
 }
 .btn_block button{
     width: 100%;
@@ -28,6 +41,11 @@
 }
 .block_img{
     text-align: center;
+    border-right: 1px solid #a59e9e;
+    border-left: 1px solid #a59e9e;
+    border-bottom: 1px solid #a59e9e;
+    padding-bottom: 35px;
+    min-height: 350px;
 }
 .active_btn{
     color: #fff;
@@ -36,4 +54,7 @@
 }
 .slider{
     margin-top: 40px;
+}
+.img_main_src{
+    min-height: 350px;
 }

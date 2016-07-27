@@ -1,0 +1,64 @@
+.kacestvo{
+
+}
+.kacestvo h2{
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #000;
+    border-bottom: 2px solid #00b3ee;
+    padding-bottom: 15px;
+    color: #a59e9e;
+}
+.kacestvo .block_image{
+    margin-top: 60px;
+    position: relative;
+}
+.kacestvo .block_image img{
+    width: 100%;
+}
+.kac_little_block{
+    position: absolute;
+}
+.lit_block1{
+    top: 5px;
+    left: 13px;
+}
+.lit_block2{
+    left: 200px;
+    top: -39px;
+}
+.lit_block3{
+    left: 474px;
+    top: -19px;
+}
+.lit_block4{
+    top: -19px;
+    left: 668px;
+}
+.lit_block5{
+    right: 0;
+    top: -39px;
+}
+.lit_block5>span{
+    background: url("../img/advantage-item-icon-color.png") center no-repeat;
+    height: 65px;
+    width: 65px;
+    margin-right: 10px;
+}
+.lit_block5>p{
+    padding-top: 10px;
+}
+.lit_block6{
+    right: 8px;
+    top: 69px;
+}
+.lit_block7{
+    top: 188px;
+    right: 8px;
+}
+.lit_block8{
+    top: 145px;
+}
+.kac_little_block{
+
+}

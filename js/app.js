@@ -18,6 +18,16 @@ $(document).ready(function () {
     },{
        offset:'80%'
     });
+    var form2 = $(".block_form2");
+    form2.waypoint(function(dir){
+        if(dir == 'down'){
+            form2.removeClass('animate_hidden');
+            form2.addClass('animate_visible');
+            form2.addClass('animated fadeInRight')
+        }
+    },{
+        offset:'80%'
+    });
 
     var leftBlock = $('.little_block');
     leftBlock.waypoint(function(dir){
@@ -30,6 +40,18 @@ $(document).ready(function () {
         offset: '50%'
     });
 
+    var kac = $(".kac_little_block");
+    kac.waypoint(function(dir) {
+        $(".kac_little_block").each(function() {
+            var ths = $(this);
+            ths.removeClass('animate_hidden');
+            ths.addClass('animate_visible');
+            ths.addClass("animated fadeInUp");
+        });
+    }, {
+        offset : "50%"
+    });
+
     var src = $('.img_main_src');
     var c8 = $('.c8');
     var mp20 = $('.mp20');
@@ -39,6 +61,44 @@ $(document).ready(function () {
     var gray = $('.color_gray');
     var green = $('.color_green');
     var red = $('.color_red');
+
+    if(c8.hasClass('active_btn')){
+        blue.on('click mouseover',function(){
+            src.attr('src','img/c8-blue.jpg');
+            src.addClass('animated fadeIn')
+        });
+        blue.on('mouseout',function(){
+            src.removeClass('animated fadeIn');
+        });
+        brown.on('click mouseover',function(){
+            src.attr('src','img/c8-brown.jpg');
+            src.addClass('animated fadeIn')
+        });
+        brown.on('mouseout',function(){
+            src.removeClass('animated fadeIn');
+        });
+        gray.on('click mouseover',function(){
+            src.attr('src','img/c8-gray.jpg');
+            src.addClass('animated fadeIn')
+        });
+        gray.on('mouseout',function(){
+            src.removeClass('animated fadeIn');
+        });
+        green.on('click mouseover',function(){
+            src.attr('src','img/c8-green.jpg');
+            src.addClass('animated fadeIn')
+        });
+        green.on('mouseout',function(){
+            src.removeClass('animated fadeIn');
+        });
+        red.on('click mouseover',function(){
+            src.attr('src','img/c8-red.jpg');
+            src.addClass('animated fadeIn')
+        });
+        red.on('mouseout',function(){
+            src.removeClass('animated fadeIn');
+        });
+    }
 
     c8.on("click",function(){
         src.attr('src','img/c8-blue.jpg');
@@ -92,18 +152,38 @@ $(document).ready(function () {
         if(mp20.hasClass('active_btn')){
             blue.on('click mouseover',function(){
                 src.attr('src','img/c20a-blue.jpg');
+                src.addClass('animated fadeIn')
+            });
+            blue.on('mouseout',function(){
+                src.removeClass('animated fadeIn');
             });
             brown.on('click mouseover',function(){
                 src.attr('src','img/c20a-brown.jpg');
+                src.addClass('animated fadeIn')
+            });
+             brown.on('mouseout',function(){
+                src.removeClass('animated fadeIn');
             });
             gray.on('click mouseover',function(){
                 src.attr('src','img/c20a-gray.jpg');
+                src.addClass('animated fadeIn')
+            });
+            gray.on('mouseout',function(){
+                src.removeClass('animated fadeIn');
             });
             green.on('click mouseover',function(){
                 src.attr('src','img/c20a-green.jpg');
+                src.addClass('animated fadeIn')
+            });
+             green.on('mouseout',function(){
+                src.removeClass('animated fadeIn');
             });
             red.on('click mouseover',function(){
                 src.attr('src','img/c20a-red.jpg');
+                src.addClass('animated fadeIn')
+            });
+             red.on('mouseout',function(){
+                src.removeClass('animated fadeIn');
             });
 
         }
@@ -116,18 +196,38 @@ $(document).ready(function () {
         if(ht.hasClass('active_btn')){
             blue.on('click mouseover',function(){
                 src.attr('src','img/color-shtaket-5005-ral.jpg');
+                src.addClass('animated fadeIn')
+            });
+            blue.on('mouseout',function(){
+                src.removeClass('animated fadeIn');
             });
             brown.on('click mouseover',function(){
                 src.attr('src','img/color-shtaket-8017-ral.jpg');
+                src.addClass('animated fadeIn')
+            });
+            brown.on('mouseout',function(){
+                src.removeClass('animated fadeIn');
             });
             gray.on('click mouseover',function(){
                 src.attr('src','img/color-shtaket-7024-ral.jpg');
+                src.addClass('animated fadeIn')
+            });
+            gray.on('mouseout',function(){
+                src.removeClass('animated fadeIn');
             });
             green.on('click mouseover',function(){
                 src.attr('src','img/color-shtaket-6005-ral.jpg');
+                src.addClass('animated fadeIn')
+            });
+            green.on('mouseout',function(){
+                src.removeClass('animated fadeIn');
             });
             red.on('click mouseover',function(){
                 src.attr('src','img/color-shtaket-3005-ral.jpg');
+                src.addClass('animated fadeIn')
+            });
+            red.on('mouseout',function(){
+                src.removeClass('animated fadeIn');
             });
 
         }
