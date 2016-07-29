@@ -1,0 +1,43 @@
+.steps{
+    background: #ccdbe0;
+    background: -moz-linear-gradient(top, #ccdbe0 0%, #f3f2f9 100%);
+    background: -webkit-linear-gradient(top, #ccdbe0 0%,#f3f2f9 100%);
+    background: linear-gradient(to bottom, #ccdbe0 0%,#f3f2f9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccdbe0', endColorstr='#f3f2f9',GradientType=0 );
+    padding-bottom: 25px;
+}
+.steps h4{
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 2px solid #00b3ee;
+    padding: 25px 0;
+    color: #575757;
+}
+.img_group{
+    margin-top: 50px;
+}
+.block_height img{
+    height: 125px;
+    position: relative;
+}
+.block_height span{
+    position: absolute;
+    right: -10%;
+    top: 45px;
+}
+.block_height p{
+    margin-top: 15px;
+    font-size: 0.9em;
+    font-weight: bold;
+    line-height: 1;
+}
+.block_height i{
+    font-size: 2.0em;
+    color: #00b3ee;
+    font-weight: bold;
+}
+.glyphicon-chevron-right:before {
+    content: "\e080";
+    font-size: 2em;
+    color: #337ab7;
+}

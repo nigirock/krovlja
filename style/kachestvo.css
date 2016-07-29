@@ -3,11 +3,11 @@
 }
 .kacestvo h2{
     text-align: center;
-    font-size: 1.5em;
-    text-shadow: 1px 1px 1px #000;
+    font-size: 2em;
+    font-weight: bold;
     border-bottom: 2px solid #00b3ee;
     padding-bottom: 15px;
-    color: #a59e9e;
+    color: #575757;
 }
 .kacestvo .block_image{
     margin-top: 60px;

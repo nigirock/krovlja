@@ -5,15 +5,15 @@
 }
 .ogragdenie h2{
     text-align: center;
-    font-size: 1.5em;
-    text-shadow: 1px 1px 1px #000;
+    font-size: 2em;
+    font-weight: bold;
     border-bottom: 2px solid #00b3ee;
     padding-bottom: 15px;
-    color: #a59e9e;
+    color: #575757;
 }
 .ogragdenie h3,h4{
     text-align: center;
-    color: #6b6a6a;
+    color: #2b2b2b;
 }
 .ogragdenie .block_form{
     padding-top: 15px;
@@ -57,4 +57,5 @@
 }
 .img_main_src{
     min-height: 350px;
+    max-height: 350px;
 }

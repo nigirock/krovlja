@@ -47,13 +47,13 @@
                     <div class="form-group">
                         <label for="inputName" class="col-md-1 col-sm-2 control-label"><span class="glyphicon glyphicon-user"></span></label>
                         <div class="col-md-11 col-sm-10">
-                            <input type="text" class="form-control" id="inputName" placeholder="Введите ваше имя">
+                            <input type="text" name="name" class="form-control" id="inputName" placeholder="Введите ваше имя">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputPhone" class="col-md-1 col-sm-2 control-label"><span class="glyphicon glyphicon-earphone"></span></label>
                         <div class="col-md-11 col-sm-10">
-                            <input type="tel" class="form-control" id="inputPhone" placeholder="Введите телефон">
+                            <input type="tel" name="phone" class="form-control" id="inputPhone" placeholder="Введите телефон">
                         </div>
                     </div>
 
@@ -119,28 +119,29 @@
                 </div>
             </div>
         </div>
-<section class="seven col-md-12">
-    <div class="container">
-        <div class="block_form col-md-10 col-md-offset-1">
-            <img src="img/seven2.png" alt="seven">
-            <h3>7 советов</h3>
-            <h4>как сэкономить деньги при установке забора и кровли в загородном доме</h4>
-            <form class="forms form-inline">
-                <div class="form-group form_animate">
-                    <input type="text" class="form-control" placeholder="Введите ваше имя">
-                </div>
-                <div class="form-group form_animate delay_05s">
-                    <input type="email" class="form-control" placeholder="Введите e-mail">
-                </div>
-                <div class="form-group form_animate delay_1s">
-                    <input type="tel" class="form-control" placeholder="Введите телефон">
-                </div>
-                <button type="submit" class="btn btn-primary form_animate delay_15s">Получить 7 советов</button>
-            </form>
-            <p>через несколько минут к вам на почту придет письмо с советами</p>
+
+    <section class="seven col-md-12">
+        <div class="container">
+            <div class="block_form col-md-10 col-md-offset-1">
+                <img src="img/seven2.png" alt="seven">
+                <h3>7 советов</h3>
+                <h4>как сэкономить деньги при установке забора и кровли в загородном доме</h4>
+                <form class="forms form-inline">
+                    <div class="form-group form_animate">
+                        <input type="text" class="form-control" placeholder="Введите ваше имя">
+                    </div>
+                    <div class="form-group form_animate delay_05s">
+                        <input type="email" class="form-control" placeholder="Введите e-mail">
+                    </div>
+                    <div class="form-group form_animate delay_1s">
+                        <input type="tel" class="form-control" placeholder="Введите телефон">
+                    </div>
+                    <button type="submit" class="btn btn-primary form_animate delay_15s">Получить 7 советов</button>
+                </form>
+                <p>через несколько минут к вам на почту придет письмо с советами</p>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
                                             <!-- info -->
     <section class="info col-md-12">
         <div class="container">
@@ -178,7 +179,7 @@
             </div>
         </div>
     </section>
-
+                                                <!--  ограждение   -->
     <section class="ogragdenie col-md-12">
         <div class="container">
             <h2 class="col-md-12">Какое ограждение выберете вы?</h2>
@@ -235,17 +236,191 @@
                 <div class="kac_little_block col-md-2 lit_block6 animate_hidden">Любые размеры ворот и калиток</div>
                 <div class="kac_little_block col-md-2 lit_block7 animate_hidden">Бутирование или цементирование столба</div>
                 <div class="kac_little_block col-md-2 lit_block8 animate_hidden">Отсутствие света —  наша забота, возьмем генератор с собой в работ</div>
-            </d
+            </div>
         </div>
     </section>
 
+                                    <!-- Рассчитайте ориентировочную стоимость забора с учетом монтажа -->
+    <section class="stoimost col-md-12">
+        <div class="container">
+            <h4>Рассчитайте ориентировочную стоимость забора с учетом монтажа</h4>
+            <form class="form-inline form_stoimost">
+                <div class="input-group block_form3 animate_hidden">
+                    <span class="input-group-addon glyphicon glyphicon-user" id="basic-addon1" ></span>
+                    <input type="text" class="form-control" placeholder="Введите ваше имя" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group delay_05s block_form3 animate_hidden">
+                    <span class="input-group-addon glyphicon glyphicon-earphone" id="basic-addon2" ></span>
+                    <input type="tel" class="form-control" placeholder="Введите телефон" aria-describedby="basic-addon2">
+                </div>
+                <button type="submit" class="btn btn-primary delay_15s block_form3 animate_hidden">Рассчитать стоимость</button>
+            </form>
+        </div>
+    </section>
+                                    <!-- семь причин обратиться к нам -->
+    <section class="col-md-12 pricina">
+        <div class="container">
+            <h4>Семь причин почему стоит обратиться к нам</h4>
+            <div class="col-md-12 pricina_block panel panel-info">
+                <div class="col-md-1 pricina_number delay_025s animate_hidden"><span>1</span></div>
+                <div class="col-md-11 pricina_text delay_025s animate_hidden">
+                    <h3>Бесплатный выезд специалиста</h3>
+                    <p>Квалифицированный сотрудник бесплатно подъедет на ваш участок и на месте произведет необходимые замеры, расчеты и окажет грамотную консультацию.</p>
+                </div>
+            </div>
+            <div class="col-md-12 pricina_block panel panel-info">
+                <div class="col-md-1 pricina_number delay_05s animate_hidden"><span>2</span></div>
+                <div class="col-md-11 pricina_text delay_05s animate_hidden">
+                    <h3>Собственная служба сервиса</h3>
+                    <p>Оперативно решаем все возникшие в процессе эксплуатации проблемы. Вам никогда не придется искать сервис "на стороне".</p>
+                </div>
+            </div>
+            <div class="col-md-12 pricina_block panel panel-info">
+                <div class="col-md-1 pricina_number delay_075s animate_hidden"><span>3</span></div>
+                <div class="col-md-11 pricina_text delay_075s animate_hidden">
+                    <h3>Годовая гарантия</h3>
+                    <p>Мы уверены в качестве своей продукции и предоставляемых услугах. Поэтому даем гарантию 1 года на все виды заборов и все производимые работы.</p>
+                </div>
+            </div>
+            <div class="col-md-12 pricina_block panel panel-info">
+                <div class="col-md-1 pricina_number delay_1s animate_hidden"><span>4</span></div>
+                <div class="col-md-11 pricina_text delay_1s animate_hidden">
+                    <h3>Установка круглый год</h3>
+                    <p>Наш богатый опыт монтажных работ в любых климатических условиях позволяет устанавливать оборудование в любую погоду, в любое время года.</p>
+                </div>
+                </div>
+            <div class="col-md-12 pricina_block panel panel-info">
+                <div class="col-md-1 pricina_number delay_125s animate_hidden"><span>5</span></div>
+                <div class="col-md-11 pricina_text delay_125s animate_hidden">
+                    <h3>Под ключ за 2 дня</h3>
+                    <p>Стандартная установка забора нашими специалистами занимает 2 дня. В единичных (крайне сложных) случаях монтаж затягивается до трех дней.</p>
+                </div>
+            </div>
+            <div class="col-md-12 pricina_block panel panel-info">
+                <div class="col-md-1 pricina_number delay_15s animate_hidden"><span>6</span></div>
+                <div class="col-md-11 pricina_text delay_15s animate_hidden">
+                    <h3>Бережное отношение к вашему ландшафту</h3>
+                    <p>Монтаж заборов происходит без применения крупной строительной техники, что позволяет сохнанить вашу территорию в первозданном виде.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+                                                    <!-- гарантия -->
+    <section class="col-md-12 garanty">
+        <div class="container">
+            <h4>Тройная гарантия фиксируется в договоре</h4>
+            <div class="garanty_sertificate">
+                <img src="img/bg-agreement-2.png" alt="agreement" class="img-responsive center-block">
+                <div class="bl first_bl col-md-8 col-md-offset-2">
+                    <p>Мы фиксируем в договоре окончательную стоимость монтажа до начала работ и даем юридические гарантии, что она не изменится</p>
+                </div>
+                <div class="bl second_bl col-md-8 col-md-offset-2">
+                    <p>Гарантия на производимые работы 1 год</p>
+                    <div class="years"></div>
+                </div>
+            </div>
+            <div class="col-md-12 btn_garanty">
+                <a href="#form" class="btn btn-primary popup" role="button">Получить договор с гарантиями сейчас</a>
+            </div>
+        </div>
+    </section>
 
+                                    <!-- 5 простых шагов до Вашего комфорта -->
+    <section class="col-md-12 steps">
+        <div class="container">
+            <h4>5 простых шагов до Вашего комфорта</h4>
+            <div class="img_group col-md-10 col-md-offset-2">
+                <div class="col-md-2 block_height animate_hidden delay_15s">
+                    <img src="img/tel.jpg" alt="" class="img-circle img-responsive">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <p><i>1.</i>Вы звоните или оставляете заявку на сайте</p>
+                </div>
+
+                <div class="col-md-2 block_height animate_hidden delay_125s">
+                    <img src="img/meneger.jpg" alt="" class="img-circle img-responsive">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <p><i>2.</i>Менеджер согласует с вами время и дату визита инженера</p>
+                </div>
+
+                <div class="col-md-2 block_height animate_hidden delay_1s">
+                    <img src="img/vodila.jpg" alt="" class="img-circle img-responsive">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <p><i>3.</i>Инженер выезжает к Вам и делает расчет сметы с учетом особенностей участка</p>
+                </div>
+
+                <div class="col-md-2 block_height animate_hidden delay_05s">
+                    <img src="img/zabor.jpg" alt="" class="img-circle img-responsive">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <p><i>4.</i>Монтаж забора осуществляет квалифицированная бригада</p>
+                </div>
+
+                <div class="col-md-2 block_height animate_hidden delay_025s">
+                    <img src="img/gamak.jpg" alt="" class="img-circle img-responsive">
+                    <p><i>5.</i>Мы работаем, вы отдыхаете</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                                <!-- Приезжайте в гости -->
+    <section class="col-md-12 maps">
+        <div class="container">
+            <h4>Приезжайте в гости</h4>
+            <div class="adress col-md-12">
+                <h3>OOO "АвтоВАМсервиС"</h3>
+                <h3>Ждем вас по адресу:</h3>
+                <h3> г. Узда . д Тычинки ул. Молодежная 25</h3>
+            </div>
+            <div class="frame_container col-md-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10663.12321324922!2d27.21554285638078!3d53.46951607347514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d9747378980a7b%3A0xf0d501c5eaccb009!2z0YPQuy4g0JzQvtC70L7QtNGR0LbQvdCw0Y8sINCj0LfQtNCw!5e0!3m2!1sru!2sby!4v1469777666373" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="col-md-12">
+        <div class="container">
+            <div class="logo logo-font col-md-6">
+                <div class="logo-img col-md-3"></div>
+                <div class="col-md-9">OOO "АвтоВАМсервиС" </br>Кровля и ограждение для загородных домов в Минске и Минской области</div>
+            </div>
+            <div class="col-md-6 footer_info">
+                <div class="footer_email logo-font">
+                    <p>E-mail: uzda5709@mail.ru</p>
+                </div>
+                <div class="footer_tel logo-font">
+                    <p>Есть вопросы? Звоните!</p>
+                    <p>8 (029) 877-23-80</p>
+                </div>
+            </div>
+            <div class="col-md-12 my">
+                <p>разработка сайтов Виринский Александр e-mail: nigirock124@gmail.com</p>
+                <span class="glyphicon glyphicon-copyright-mark center-block">2016г</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="hidden">
+        <form id="form" role="form" class="forms">
+            <h5>Оставьте заявку и получите на почту договор с гарантиями</h5>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Введите Ваше Имя" name="name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Введите email" name="mail">
+            </div>
+            <div class="form-group">
+                <input type="tel" class="form-control" placeholder="Введите телефон" name="phone">
+            </div>
+            <button class="btn btn-primary center-block" type="submit">Отправить</button>
+        </form>
+    </div>
 
 
 </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>

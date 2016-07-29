@@ -9,11 +9,11 @@
 }
 .info h2{
     font-size: 1.5em;
-    text-align: center;
-    padding-bottom: 15px;
-    color: #fff;
+    font-weight: bold;
     border-bottom: 2px solid #00b3ee;
-    text-shadow: 1px 1px 5px #000;
+    padding-bottom: 15px;
+    color: #575757;
+    text-align: center;
 }
 .img_info{
     text-align: center;

@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    $(".popup").magnificPopup();
+
     var circle = $(".circle");
      circle.waypoint(function(dir) {
       $(".circle").each(function() {
@@ -18,16 +20,30 @@ $(document).ready(function () {
     },{
        offset:'80%'
     });
+
     var form2 = $(".block_form2");
-    form2.waypoint(function(dir){
-        if(dir == 'down'){
-            form2.removeClass('animate_hidden');
-            form2.addClass('animate_visible');
-            form2.addClass('animated fadeInRight')
-        }
-    },{
-        offset:'80%'
+    form2.waypoint(function(dir) {
+        $(".block_form2").each(function() {
+            var ths = $(this);
+            ths.removeClass('animate_hidden');
+            ths.addClass('animate_visible');
+            ths.addClass("animated bounceInUp");
+        });
+    }, {
+        offset : "50%"
     });
+    var form3 = $(".block_form3");
+    form3.waypoint(function(dir) {
+        $(".block_form3").each(function() {
+            var ths = $(this);
+            ths.removeClass('animate_hidden');
+            ths.addClass('animate_visible');
+            ths.addClass("animated bounceInLeft");
+        });
+    }, {
+        offset : "50%"
+    });
+
 
     var leftBlock = $('.little_block');
     leftBlock.waypoint(function(dir){
@@ -50,6 +66,40 @@ $(document).ready(function () {
         });
     }, {
         offset : "50%"
+    });
+    var pricinaNum = $(".pricina_number");
+    pricinaNum.waypoint(function(dir) {
+        $(".pricina_number").each(function() {
+            var ths = $(this);
+            ths.removeClass('animate_hidden');
+            ths.addClass('animate_visible');
+            ths.addClass("animated fadeInLeft");
+        });
+    }, {
+        offset : "30%"
+    });
+    var pricinaTxt = $(".pricina_text");
+    pricinaTxt.waypoint(function(dir) {
+        $(".pricina_text").each(function() {
+            var ths = $(this);
+            ths.removeClass('animate_hidden');
+            ths.addClass('animate_visible');
+            ths.addClass("animated fadeInRight");
+        });
+    }, {
+        offset : "30%"
+    });
+
+    var steps = $(".block_height");
+    steps.waypoint(function(dir) {
+        $(".block_height").each(function() {
+            var ths = $(this);
+            ths.removeClass('animate_hidden');
+            ths.addClass('animate_visible');
+            ths.addClass("animated fadeInLeft");
+        });
+    }, {
+        offset : "60%"
     });
 
     var src = $('.img_main_src');
@@ -236,22 +286,22 @@ $(document).ready(function () {
 
 
 
-    //Цели для Яндекс.Метрики и Google Analytics
+    //Р¦РµР»Рё РґР»СЏ РЇРЅРґРµРєСЃ.РњРµС‚СЂРёРєРё Рё Google Analytics
      $(".count_element").on("click", (function() {
      ga("send", "event", "goal", "goal");
      yaCounterXXXXXXXX.reachGoal("goal");
      return true;
      }));
 
-     //Аякс отправка форм
-     //Документация: http://api.jquery.com/jquery.ajax/
+     //РђСЏРєСЃ РѕС‚РїСЂР°РІРєР° С„РѕСЂРј
+     //Р”РѕРєСѓРјРµРЅС‚Р°С†РёСЏ: http://api.jquery.com/jquery.ajax/
      $(".forms").submit(function() {
      $.ajax({
      type: "POST",
      url: "mail.php",
      data: $(this).serialize()
      }).done(function() {
-     alert("Спасибо за заявку!");
+     alert("РЎРїР°СЃРёР±Рѕ Р·Р° Р·Р°СЏРІРєСѓ!");
      setTimeout(function() {
      $.magnificPopup.close();
      $(".forms").trigger("reset");

@@ -1,0 +1,18 @@
+footer{
+    background-color: #00b3ee;
+    padding: 25px 0;
+    border-top: 3px solid #c1c1c1;
+    border-bottom: 3px solid #c1c1c1;
+    margin-top: 50px;
+}
+.footer_info{
+    text-align: right;
+}
+.my p{
+    text-align: right;
+    font-size: 0.6em;
+    color: #000;
+}
+.my span{
+    text-align: center;
+}

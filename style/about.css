@@ -42,18 +42,3 @@
 .about_row{
     padding: 20px 0;
 }
-.fadeInUp{
-    visibility: visible;
-}
-.delay_05s{
-    -webkit-animation-delay: .5s;
-    animation-delay: .5s;
-}
-.delay_1s{
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-}
-.delay_15s{
-    -webkit-animation-delay: 1.5s;
-    animation-delay: 1.5s;
-}

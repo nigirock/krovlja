@@ -1,0 +1,21 @@
+.maps{
+    border-top: 3px solid #c1c1c1;
+}
+.maps h4{
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 2px solid #00b3ee;
+    padding-bottom: 15px;
+    color: #575757;
+}
+.frame_container{
+    border: 3px solid #00b3ee;
+}
+.adress{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.adress h3{
+    line-height: 0.5;
+    font-weight: bold;
+}

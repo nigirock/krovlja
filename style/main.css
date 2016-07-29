@@ -1,3 +1,4 @@
+@import "magnific-popup.css";
 @import "animate.css";
 @import "header.css";
 @import "about.css";
@@ -5,6 +6,12 @@
 @import "info.css";
 @import "ogragdenie.css";
 @import "kachestvo.css";
+@import "stoimost.css";
+@import "pricina.css";
+@import "garanty.css";
+@import "steps.css";
+@import "maps.css";
+@import "footer.css";
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -18,4 +25,46 @@ ul li span{
 }
 .container-fluid{
     padding: 0;
+}
+.fadeInUp{
+    visibility: visible;
+}
+.hidden{
+    display: none;
+}
+.delay_025s{
+    -webkit-animation-delay: .25s;
+    animation-delay: .25s;
+}
+.delay_05s{
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+}
+.delay_075s{
+    -webkit-animation-delay: .75s;
+    animation-delay: .75s;
+}
+.delay_1s{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.delay_125s{
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+}
+.delay_15s{
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+#form{
+    max-width: 320px;
+    background-color: #fff;
+    padding: 40px;
+    margin: auto;
+    position: relative;
+    border: 2px solid #00b3ee;
+}
+#form h5{
+    text-align: center;
+    font-weight: bold;
 }

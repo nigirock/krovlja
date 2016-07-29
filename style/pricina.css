@@ -1,0 +1,34 @@
+.pricina{
+    background: #fcfcfc;
+    background: -moz-linear-gradient(top, #fcfcfc 0%, #c3d5db 100%);
+    background: -webkit-linear-gradient(top, #fcfcfc 0%,#c3d5db 100%);
+    background: linear-gradient(to bottom, #fcfcfc 0%,#c3d5db 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#c3d5db',GradientType=0 );
+}
+.pricina h4{
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 2px solid #00b3ee;
+    padding: 25px 0;
+    color: #575757;
+}
+.pricina_block{
+    display: flex;
+    padding: 10px;
+}
+.pricina_block h3{
+    color: #00b3ee;
+    margin-top: 10px;
+}
+.pricina_block p{
+    font-weight: bold;
+}
+.pricina_number{
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #00b3ee;
+}
+.pricina_number span{
+    font-size: 3.5em;
+}
