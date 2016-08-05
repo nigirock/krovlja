@@ -19,3 +19,19 @@
     line-height: 0.5;
     font-weight: bold;
 }
+.maps form{
+    border: 3px solid #00b3ee;
+    padding: 20px 10px;
+    min-height: 330px;
+}
+.maps form h5{
+    text-align: center;
+    font-size: 1.6em;
+}
+.maps textarea{
+    height: 130px;
+    padding: 12px 14px;
+    background-image: none;
+    overflow: auto;
+    resize: none;
+}

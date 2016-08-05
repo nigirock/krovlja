@@ -32,7 +32,7 @@
     margin-bottom: 10px;
 }
 .elipse_block img{
-    margin-bottom: 10px;
+    margin: 10px auto;
 }
 .elipse_block img:hover{
     -webkit-box-shadow: 0 0 5px 1px #888;
@@ -58,4 +58,5 @@
 .img_main_src{
     min-height: 350px;
     max-height: 350px;
+    margin: auto;
 }

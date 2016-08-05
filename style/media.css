@@ -1,0 +1,488 @@
+@media screen and (max-width: 1200px) {
+    .lit_block1{
+        top: -25px;
+        left: 0;
+    }
+    .lit_block2{
+        left: 145px;
+        top: -55px;
+    }
+    .lit_block3{
+        left: 360px;
+        top: -42px;
+    }
+    .lit_block4{
+        top: -19px;
+        left: 550px;
+    }
+    .lit_block5{
+        right: -5px;
+        top: -64px;
+    }
+    .lit_block6{
+        right: 8px;
+        top: 51px;
+    }
+    .lit_block7{
+        top: 130px;
+        right: 8px;
+    }
+    .lit_block8{
+        top: 80px;
+    }
+    .btn_block button{
+        width: 100%;
+        padding: 5px 15px;
+        margin-bottom: 10px;
+    }
+    .block_height img {
+        height: 105px;
+        position: relative;
+    }
+}
+@media screen and (max-width: 992px) {
+    .kac_little_block{
+        font-size: 0.7em;
+        color: #000;
+        font-weight: bold;
+    }
+    .lit_block1{
+        top: -25px;
+        left: 0;
+    }
+    .lit_block2{
+        left: 105px;
+        top: -55px;
+    }
+    .lit_block3{
+        left: 280px;
+        top: -42px;
+    }
+    .lit_block4{
+        top: -19px;
+        left: 415px;
+    }
+    .lit_block5{
+        right: -5px;
+        top: -53px;
+    }
+    .lit_block6{
+        right: 8px;
+        top: 38px;
+    }
+    .lit_block7{
+        top: 100px;
+        right: 8px;
+    }
+    .lit_block8{
+        top: 80px;
+    }
+    .ogr_center_btn{
+        display: flex;
+    }
+    .btn_block button{
+        width: auto;
+        padding: 15px 40px;
+        margin: auto;
+    }
+    .block_height p{
+        margin-top: 15px;
+        font-size: 0.8em;
+        font-weight: bold;
+        line-height: 1;
+    }
+    .block_height span{
+        display: block;
+    }
+        /* ограждение*/
+    .ogr_center_img{
+        text-align: center;
+    }
+    .ogr_center_img img{
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .title-ul ul li{
+        text-align: center;
+    }
+    .form_btn{
+        text-align: center;
+    }
+    .phone{
+        text-align: center;
+    }
+    /* о нас */
+    .circle{
+        height: 215px;
+        margin: 10px auto;
+    }
+    .about_row{
+        padding: 0;
+    }
+    /* 7 советов */
+    form button{
+        margin-top: 15px;
+    }
+    /* о материале */
+    .img_info img{
+        opacity: 0.7;
+    }
+    .img_info p{
+        color: #000;
+        font-weight: bold;
+    }
+    .little_block{
+        width: 45%;
+    }
+    .little_block1{
+        top: 0;
+        left: 0;
+    }
+    .little_block2{
+        top: 105px;
+    }
+    .little_block3{
+        top: 210px;
+    }
+    .little_block4{
+        top: 340px;
+    }
+    .little_block5{
+        right: 25px;
+        top: 0;
+    }
+    .little_block6{
+        right: 25px;
+        top: 107px;
+    }
+    .little_block7{
+        right: -17px;
+        top: 218px;
+    }
+    /* ограждение */
+
+    .block_img{
+        margin-top: 25px;
+    }
+    .ogr_center_btn button{
+        margin: 5px;
+    }
+    .ogr_center_img img{
+        margin: 5px auto;
+    }
+    .block_form2{
+        margin-top: 0;
+    }
+    /* качество заборов */
+    .lit_block1{
+        top: -15px;
+        left: 0;
+    }
+    .lit_block2{
+        left: 100px;
+        top: -39px;
+    }
+    .lit_block3{
+        left: 269px;
+        top: -25px;
+    }
+    .lit_block4{
+        top: -19px;
+        left: 414px;
+    }
+    .lit_block5{
+        right: -11px;
+        top: -48px;
+    }
+    .lit_block6{
+        right: -9px;
+        top: 41px;
+    }
+    .lit_block7{
+        top: 102px;
+        right: 8px;
+    }
+    .lit_block8{
+        top: 60px;
+    }
+    .steps{
+        text-align: center;
+    }
+    .garanty_sertificate .bl{
+        font-size: 1em;
+    }
+    .first_bl {
+        top: 60px;
+        left: 10%;
+        width: 80%;
+    }
+    .second_bl {
+        top: 50%;
+        left: 10%;
+        width: 80%;
+    }
+    .years{
+        display: none;
+    }
+    .block_form3:first-child{
+        margin-bottom: 15px;
+    }
+    .block_height span{
+        display: none;
+    }
+    .block_height img{
+        margin: auto;
+    }
+    .block_height p{
+        font-size: 0.8em;
+        word-break: keep-all;
+    }
+    .frame_container{
+        margin-bottom: 20px;
+    }
+    .footer_info{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .my p{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .block_height img {
+        height: 80px;
+    }
+            /* о материале */
+    .little_block{
+        position: absolute;
+    }
+    .little_block2{
+        top: 111px;
+    }
+    .little_block3{
+        top: 222px;
+    }
+    .little_block6{
+        top: 111px;
+    }
+    .little_block7{
+        right: 25px;
+        top: 218px;
+    }
+            /* качество заборов */
+    .kac_little_block{
+        width: 20%;
+    }
+    .lit_block2 {
+        left: 130px;
+        top: -39px;
+    }
+    .lit_block5>span{
+        display: none;
+    }
+    .lit_block8 {
+        top: 85px;
+    }
+    .lit_block7 {
+        top: 102px;
+        right: -10px;
+    }
+            /* гарантия */
+    .garanty_sertificate .bl {
+        font-size: 1.5em;
+    }
+    .first_bl {
+        top: 16%;
+    }
+    .second_bl {
+        top: 60%;
+    }
+
+}
+@media screen and (max-width: 640px){
+            /* header */
+    .form_right ul {
+        text-align: center;
+    }
+            /* о материале*/
+    .img_info {
+        padding: 75px 0;
+    }
+            /* качество заборов */
+    .lit_block2 {
+        left: 98px;
+        top: -48px;
+    }
+    .lit_block3 {
+        left: 214px;
+        top: -32px;
+    }
+    .lit_block4 {
+        top: -19px;
+        left: 328px;
+    }
+    .lit_block5 {
+        right: -24px;
+        top: -48px;
+    }
+    .lit_block8 {
+        left: 0px;
+        top: 36px;
+    }
+}
+@media screen and (max-width: 540px){
+    /* О материале*/
+    .img_info{
+        padding: 15px 0;
+    }
+    .info_img{
+        display: none;
+    }
+    .little_block{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 10px;
+    }
+            /* качество заборов */
+    .kacestvo .block_image{
+        margin-top: 20px;
+    }
+    .block_image img{
+        opacity: 0.5;
+        position: absolute;
+    }
+    .kac_little_block{
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        font-size: 1.2em;
+        border: 1px solid #00b3ee;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .lit_block5 span{
+        display: none;
+    }
+            /* гарантия*/
+    .garanty_sertificate .bl{
+        font-size: 1.1em;
+    }
+    .btn_garanty a {
+        font-size: 1.2em;
+    }
+            /* приезжайте в гости */
+    .adress h3{
+        font-size: 1.3em;
+    }
+}
+@media screen and (max-width: 425px){
+            /* header*/
+    header{
+        padding-top: 0;
+    }
+    .logo{
+        font-size: 0.8em;
+    }
+    .logo-font{
+        font-size: 1em;
+    }
+    .logo-img{
+        background-size: contain;
+    }
+    .main-head .phone{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 1em;
+    }
+    .title-ul ul li{
+        text-align: left;
+    }
+            /* О нас */
+    .about_wrap{
+        display: flex;
+    }
+    .circle{
+        margin: 10px auto;
+    }
+    .about_row{
+        padding: 0;
+    }
+            /* О материале*/
+    .img_info{
+        padding: 15px 0;
+    }
+    .info_img{
+        display: none;
+    }
+    .little_block{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 10px;
+    }
+            /* ограждение*/
+    .ogr_center_btn{
+        display: inline-block;
+    }
+    .btn_block{
+        text-align: center;
+    }
+    .btn_block button{
+        padding: 12px 25px;
+    }
+    .img_main_src{
+        margin: auto;
+    }
+            /* качество заборов */
+    .kacestvo .block_image{
+        margin-top: 20px;
+    }
+    .block_image img{
+        opacity: 0.5;
+        position: absolute;
+    }
+    .kac_little_block{
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        font-size: 1.2em;
+        border: 1px solid #00b3ee;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .lit_block5 span{
+        display: none;
+    }
+            /* гарантия*/
+    .garanty_sertificate .bl{
+        font-size: 0.8em;
+    }
+    .first_bl{
+        top: 15%;
+    }
+    .second_bl{
+        top: 60%;
+    }
+    .btn_garanty a{
+        font-size: 0.9em;
+    }
+            /* приезжайте в гости*/
+    .adress h3{
+        margin-top: 0;
+        line-height: 1;
+    }
+    /* Рассчитайте ориентировочную стоимость забора с учетом монтажа */
+
+
+}

@@ -17,6 +17,13 @@
 .glyphicon{
     top: 0;
 }
-.glyphicon-user:before, .glyphicon-earphone:before{
+.glyphicon-user:before,
+.glyphicon-earphone:before,
+.glyphicon-arrow-up:before,
+.glyphicon-arrow-right:before{
     font-size: 20px;
+}
+.block_form3{
+    width: 60%;
+    margin: 10px auto;
 }

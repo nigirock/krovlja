@@ -41,7 +41,7 @@ $(document).ready(function () {
             ths.addClass("animated bounceInLeft");
         });
     }, {
-        offset : "50%"
+        offset : "60%"
     });
 
 
@@ -76,7 +76,7 @@ $(document).ready(function () {
             ths.addClass("animated fadeInLeft");
         });
     }, {
-        offset : "30%"
+        offset : "50%"
     });
     var pricinaTxt = $(".pricina_text");
     pricinaTxt.waypoint(function(dir) {
@@ -87,7 +87,7 @@ $(document).ready(function () {
             ths.addClass("animated fadeInRight");
         });
     }, {
-        offset : "30%"
+        offset : "50%"
     });
 
     var steps = $(".block_height");
@@ -99,7 +99,7 @@ $(document).ready(function () {
             ths.addClass("animated fadeInLeft");
         });
     }, {
-        offset : "60%"
+        offset : "70%"
     });
 
     var src = $('.img_main_src');
@@ -296,15 +296,17 @@ $(document).ready(function () {
      //Аякс отправка форм
      //Документация: http://api.jquery.com/jquery.ajax/
      $(".forms").submit(function() {
+         var formID = $(this).attr('id'); // Получение ID формы
+         var formNm = $('#' + formID);
      $.ajax({
-     type: "POST",
-     url: "mail.php",
-     data: $(this).serialize()
+         type: "POST",
+         url: "mail.php",
+         data: formNm.serialize()
      }).done(function() {
-     alert("Спасибо за заявку!");
-     setTimeout(function() {
-     $.magnificPopup.close();
-     $(".forms").trigger("reset");
+         $('.bs-example-modal-sm').modal();
+        setTimeout(function() {
+        $.magnificPopup.close();
+        $(".forms").trigger("reset");
      }, 1000);
      });
      return false;

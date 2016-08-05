@@ -52,6 +52,9 @@ header:before{
     margin-top: 50px;
     border: 1px solid #5bc0de;
 }
+.forms{
+    text-align: center;
+}
 .panel_h3{
     text-align: center;
     padding-bottom: 5px;
